@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Inter'), url('https://fonts.cdnfonts.com/s/19795/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Inter'), url('https://fonts.cdnfonts.com/s/19795/Inter-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Inter'), url('https://fonts.cdnfonts.com/s/19795/Inter-Thin-BETA.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bigilla';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bigilla'), url('https://fonts.cdnfonts.com/s/34031/Bigilla.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bigilla';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Bigilla'), url('https://fonts.cdnfonts.com/s/34031/Bigilla-Bold.woff') format('woff');
+}
+
+
+.section-bg {
+    background-image: url('./images/background.png');
+    height: 900px;
+  
+
+}
+.manu1{
+padding-top: 37px;
+}
+.bella{
+    margin-left:140px;
+}
+.rect{
+    margin-top: -800px;
+    z-index:1;
+}
+
+.section-left {
+    display: flex;
+
+
+}
+
+.list {
+    margin-right: 140px;
+    
+    
+}
+.list li{
+    color:yellow;
+}
+.icon {
+    margin-top: 160px;
+    margin-left: 20px;
+
+}
+
+.question-mark {
+    padding-top: 70px;
+    padding-bottom: 45px;
+    width: 26px;
+    height: 26px
+}
+
+.heart-mark {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 26px;
+    height: 26px
+}
+
+.search-mark {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 26px;
+    height: 26px
+}
+
+.main-img {
+    width: 530px;
+    height: 560px;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+.back-img-1{
+    z-index: -1;
+    margin-left: -620px;
+    margin-top: -90px;
+}
+.back-img-2{
+    z-index: -1;
+    margin-top: -490px;
+}
+.main-title p {
+
+
+    font-family: 'Bigilla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    margin-top: 160px;
+    margin-left: 0px;
+
+    /* or 104% */
+
+
+    color: #2F2649;
+}
+
+.main2{
+    text-align: center;
+}
+.trend-heading{
+    font-size: 40px;
+    font-family: 'Brasley';
+}
+.new-arrival p {
+    width: 131px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    margin-left: 0px;
+    
+}
+.trend-paragraph{
+    font-family: 'Brasley';
+font-style: normal;
+font-size: 16px;
+
+height: 40px;
+text-align: center;
+}
+.nav-link {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+padding-top: 43px;
+color: #4F433F !important; 
+
+}
+.nav-item{
+    align-items: center;
+}
+.image3 {
+    background: rgba(200, 172, 161, 0.26);
+    border-radius: 8px;
+    width: 60%;
+    height: 133px;
+    border-radius: 8px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+
+.img1 {
+    width: 23%;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px
+}
+.line{
+    margin-top: -5px;
+   
+}
+.img2 {
+    width: 23%;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.img3 {
+    width: 23%;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 20px
+}
+.img4{
+    width: 6%;
+    height:50px;
+    margin-top: 50px;
+    margin-left: 20px
+}
+.container-fluid{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0) !important;
+    padding-left: var(--bs-gutter-x, 0) !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+@media only screen and (max-width: 600px) {
+    
+.image3 {
+    background: rgba(200, 172, 161, 0.26);
+    border-radius: 8px;
+    width: 90%;
+    height: 143px;
+    border-radius: 8px;
+    display: flex;
+    margin-left: 30px;
+}
+    .img1 {
+        width: 24%;
+        height: 104px;
+        top: 620px;
+        left: 782px;
+        margin-top: 20px;
+        margin-left: 20px
+    }
+    
+    .img2 {
+        width: 24%;
+        height: 104px;
+        top: 620px;
+        left: 919px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .img3 {
+        width: 24%;
+        height: 104px;
+        top: 620px;
+        left: 1056px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .img4{
+        width: 5%;
+        height: 60px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .new-arrival p{
+        margin-left:30px
+    }
+    .main-img{
+
+        width:300px;
+        height:200px;
+        margin-top: 30px;
+        margin-left:-0.6px;
+        padding-left:30px
+    }
+    .icon{
+        margin-top: -20px;
+        margin-left: 30px;
+    }
+    .line{
+        margin-left: 30px;
+    }
+    .main-title{
+        margin-top: -170px;
+        margin-left: 30px;
+    }
+    .main-title p {
+
+
+        font-family: 'Bigilla';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 66px;
+        line-height: 60px;
+        margin-top: 237px;
+        margin-left: 0px;
+    
+        /* or 104% */
+    
+    
+        color: #2F2649;
+    }
+    .back-img-1{
+        display: none;
+    }
+    .back-img-2{
+        display: none;
+    }
+    
+}
+
+.card{
+    background: rgba(200, 172, 161, 0.2);
+border-radius: 8px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  background-color: yellow;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+ }
+
+
+ a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
