@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    box-shadow: 5px 10px 5px 10px white;
+    width: 70%;
+    margin:50px 200px;
+}
+.horizontal{
+    background: #78A060;
+margin-top: 80px;
+width: 100%;
+height: 295px;
+z-index: 1;
+}
+.title-info{
+    display: flex;
+    margin-left: 450px;
+padding-top: 40px;
+padding-left: -90px;
+}
+.name{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+margin-top:90px;
+color: #FFFFFF;
+margin-left: 0px;
+
+}
+.dasignation{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.left{
+    background: #78A060;
+width: 45%;
+height:1300px;
+margin-top: -376px;
+margin-left: 30px;
+z-index: 0;
+}
+.profile-pic{
+    margin-top: 0px;
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+
+}
+.profile-info{
+    width: 70%;
+    margin-left: 70px;
+    margin-top:470px
+}
+.profile-info p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 530;
+font-size: 20px;
+line-height: 23px;
+}
+.profile-info h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 70px;
+
+}
+.address{
+    margin-top: 50px;
+}
+.at-sign
+{
+    margin-bottom: 25px;
+}
+.img-at-sign{
+    width: 25px;
+    height: 25  px;
+}
+
+.location{
+    margin-bottom: 25px;
+}
+
+.email{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 17px;
+margin-bottom: 35px;
+color: #000000;
+}
+.skills{
+    margin-top: 50px;
+    margin-left: 70px;
+
+}
+.skills h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 22px;
+
+}
+.skills p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 530;
+    font-size: 20px;
+    line-height: 33px;
+
+}
+.education{
+    margin-left:50px;
+    margin-top: 80px;
+    font-weight: 600;
+    line-height: 33px;
+}
+.degree
+{
+    display: flex;
+}
+.year{
+    margin-left: 180px;
+}
+.light-font{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.ref
+{
+    margin-top: 40px;
+}
+
+ @media only screen and (max-width: 600px)
+{
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+
+.card{
+    margin-left: 30px;
+    width: 100%;
+}
+.left{
+    width: 100%;
+    margin-left: 0px;
+}
+.horizontal{
+    width: 90%;
+    margin-left: 35px;
+}
+.profile-info{
+    margin-top:380px;
+    margin-left: 10px;
+}
+.name{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.dasignation{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.logo{
+    margin-left: 10px;
+}
+.address{
+    margin-top: -120px;
+    margin-left: 70px;
+}
+.skills{
+    margin-left: 0px;
+}
+
+}
