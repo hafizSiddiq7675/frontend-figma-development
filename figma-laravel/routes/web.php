@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/figma1', function () {
     return view('figma');
+});
+Route::get('/figma2', function () {
+    return view('cv-figma');
 });
