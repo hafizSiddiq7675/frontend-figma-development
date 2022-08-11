@@ -43,9 +43,10 @@ body{
 
 
 .section-bg {
-    background-image: url('./images/background.png');
+    background-image:url('images/background.png');
     height: 900px;
-  
+    background: linear-gradient(116.49deg, #C2C6BE 5.91%, #DFCEB6 99.95%);
+
 
 }
 .manu1{
@@ -67,8 +68,8 @@ padding-top: 37px;
 
 .list {
     margin-right: 140px;
-    
-    
+
+
 }
 .list li{
     color:yellow;
@@ -170,7 +171,7 @@ color: #000000;
     font-size: 22px;
     line-height: 20px;
     margin-left: 0px;
-    
+
 }
 .trend-paragraph{
     font-family: 'Brasley';
@@ -187,7 +188,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 20px;
 padding-top: 43px;
-color: #4F433F !important; 
+color: #4F433F !important;
 
 }
 .nav-item{
@@ -213,7 +214,7 @@ color: #4F433F !important;
 }
 .line{
     margin-top: -5px;
-   
+
 }
 .img2 {
     width: 23%;
@@ -235,10 +236,10 @@ color: #4F433F !important;
  margin-left: 380px;
  margin-top: 40px;
  width: 100%;
-   
+
 }
 
-  
+
 .container-fluid{
     width: 100%;
     padding-right: var(--bs-gutter-x, 0) !important;
@@ -263,8 +264,8 @@ color: #4F433F !important;
     .section-bg{
         height: 1000px;
     }
-    
-    
+
+
 .image3 {
     background: rgba(200, 172, 161, 0.26);
     border-radius: 8px;
@@ -283,7 +284,7 @@ color: #4F433F !important;
         margin-top: 20px;
         margin-left: 20px
     }
-    
+
     .img2 {
         width: 24%;
         height: 104px;
@@ -292,7 +293,7 @@ color: #4F433F !important;
         margin-top: 20px;
         margin-left: 20px;
     }
-    
+
     .img3 {
         width: 24%;
         height: 104px;
@@ -301,7 +302,7 @@ color: #4F433F !important;
         margin-top: 20px;
         margin-left: 20px;
     }
-    
+
     .new-arrival p{
         margin-left:30px
     }
@@ -336,10 +337,10 @@ color: #4F433F !important;
         margin-top: 237px;
         margin-left: 0px;
         text-align: start;
-    
+
         /* or 104% */
-    
-    
+
+
         color: #2F2649;
     }
     .back-img-1{
@@ -348,7 +349,7 @@ color: #4F433F !important;
     .back-img-2{
         display: none;
     }
-    
+
 }
 
 
@@ -364,14 +365,14 @@ height: 228px;
                 margin-left:45px;
 }
 .shoes-third{
-   
+
                 width: 80%;
 height: 195px;
 margin-top: 50px;
 margin-left: 12px;
 }
 .shoes-fourth{
-   
+
                 width: 80%;
 height: 212px;
 margin-top: 50px;
@@ -396,9 +397,9 @@ margin-left: 20px;
 .price{
     margin-top: 10px;
     margin-left: 20px;
-    
-   
-    
+
+
+
 }
 .price p{
     font-weight: 500;
@@ -414,25 +415,25 @@ font-size: 16px;
 }
 .right-Arrow img{
     margin-top: 160px;
-    margin-left: 70px;   
+    margin-left: 70px;
 }
 .main-div{
     width: 1000px;
     border: none;
-   
+
 }
 .card {
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
-   
+
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
     border: none !important;
     border-radius: 0.25rem;
-   
+
 }
 
 @media only screen and (max-width:600px) {
@@ -443,7 +444,54 @@ font-size: 16px;
           width:80%;
      }
 
-    
+
+}
+.carousel-control-prev1 {
+    left: auto !important;
+}
+.pictures{
+    width: 100%;
+}
+
+.carousel-control-next1{
+
+    position: absolute !important;
+    top: 50px !important;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px !important;
+    padding: 0;
+    /* color: #fff; */
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1 !important;
+
+
+}
+.carousel-control-next1 {
+    right: auto !important;
+}
+ .carousel-control-prev1 {
+    position: none !important;
+    top: 80px !important;
+    bottom: 0;
+   margin-top: 80px;
+    display: flex;
+    margin-top:100px;
+    align-items: center;
+    justify-content: center;
+    width: 24px !important;
+    padding: 0;
+    /* color: #fff; */
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1 !important;
+
 }
 
 
@@ -462,7 +510,7 @@ font-size: 16px;
       .images{
         margin-left: 50px;
       }
-      
+
   }
 
   .info1{
@@ -471,7 +519,7 @@ font-size: 16px;
     border-radius: 8px;
     width: 60px;
 height: 60px;
-    
+
   }
   .info-1 > div {
     background: #ffff;;
@@ -485,12 +533,12 @@ height: 60px;
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
-    align-content: center;    
+    align-content: center;
     text-align: center;
     padding-left:22px;
-    
+
     color: #000000;
-    
+
   }
   .info-1>p{
     display: flex;
@@ -503,7 +551,7 @@ height: 60px;
     padding-top: 10px;
     padding-left:-4px;
     color: #6B7280;
-  }  
+  }
   .info-1{
     display: flex;
     background-color: #ffff;
@@ -527,7 +575,7 @@ height: 60px;
 }
 .section4-left-div{
 display: flex;
-} 
+}
 .ractangle{
     width: 200px;
 height: 182px;
@@ -548,7 +596,7 @@ color: #2F2649;
 }
 .nike-shoes{
     width:100%;
-  
+
 height: 349px;
 margin-left: 116px;
 
@@ -560,9 +608,9 @@ margin-left: 116px;
     display: flex;
     margin-left: 30px;
     height: 50%;
-    
-  
-    
+
+
+
 
 }
 .section4-right-div-bottom{
@@ -645,7 +693,7 @@ margin-left: 40px;
     .section4{
         margin-left: 0px;
     }
-    
+
     .nike-shoes{
         width: 100px;
     height: 349px;
@@ -692,10 +740,10 @@ margin-left: 40px;
         margin-top: 30px;
         margin-left: 5px;
         height: 50%;
-        
-      
-        
-    
+
+
+
+
     }
     .section4-right-div-bottom{
         background: rgba(200, 172, 161, 0.2);
@@ -704,10 +752,10 @@ margin-left: 40px;
         display: flex;
         margin-left: 5px;
         height: 50%;
-        
-      
-        
-    
+
+
+
+
     }
 }
 
@@ -733,13 +781,13 @@ border-radius: 20px;
 }
 .part-top{
     display:flex;
-   
+
     margin-left: 40px;
 
 }
 .girl-image{
     margin-top: 56px;
-    
+
 }
 .part-title{
     margin-top: 50px;
@@ -821,7 +869,7 @@ footer{
     margin-top: 100px;
 }
 .name{
-    
+
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -874,7 +922,7 @@ mix-blend-mode: normal;
     .first{
         margin-top: 10px;
     }
-   
+
     .navbar-toggler-icon {
         display: inline-block;
         width: 1.5em;
@@ -883,7 +931,7 @@ mix-blend-mode: normal;
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
-        margin-top: -230 !important; 
+        margin-top: -230 !important;
     }
     .links{
         margin-top: -150px;
@@ -894,7 +942,7 @@ mix-blend-mode: normal;
     footer{
         height:50%;
     }
-   
+
 }
 
 .carousel-inner1 {
