@@ -218,10 +218,15 @@ color: #4F433F !important;
     margin-top: -5px;
 
 }
+.card1 {
+    margin: 0 0.5em;
+    box-shadow: 0px 0px 0px 0 rgb(22 22 26 / 18%) !important;
+    border: none;
+}
 .img2 {
-    width: 25%;
-    height: 104px;
-    margin-top: 20px;
+    width: 86%;
+    height: 92px;
+    margin-top: 22px;
     margin-left: 20px
 }
 
@@ -233,6 +238,7 @@ color: #4F433F !important;
 }
 .buttons{
     margin-top: 40px;
+    margin-left: 10px;
 
 }
 .img4-1{
@@ -245,7 +251,16 @@ color: #4F433F !important;
 
 }
 
-
+.first-image{
+    margin-left: 777px;
+    margin-top: 60px;
+    width: 25px;
+    height: 25px;
+}
+.second-image{
+    width: 25px;
+    height: 25px;
+}
 .container-fluid{
     width: 100%;
     padding-right: var(--bs-gutter-x, 0) !important;
@@ -283,12 +298,10 @@ color: #4F433F !important;
     margin-top: 300px;
 }
     .img1 {
-        width: 24%;
-        height: 104px;
-        top: 620px;
-        left: 782px;
-        margin-top: 20px;
-        margin-left: 20px
+        width: 86%;
+    height: 92px;
+    margin-top: 22px;
+    margin-left: 20px
     }
 
     .img2 {
