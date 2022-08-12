@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -37,39 +38,41 @@
                         <h2>Profile</h2>
                         <p>I am an experienced professional seeking an opportunity to use my background in data analysis and market trend research. I am a dedicated and detail-oriented marketing spey professional skillse</p>
                     </div>
-                    <div class="address-info conatainer">
-                        <div class="row">
-                            <div class="logo col-md-2 col-xs-2">
-                                <div class="at-sign"> <img class="img-at-sign" src="{{ ('cv-figma/images/at-sign.png') }}" alt=""></div>
-                                <div class="location"> <img class="img-at-sign" src="{{ ('cv-figma/images/location.png') }}" alt=""></div>
-                                <div><img class="img-at-sign" src="{{ ('cv-figma/images/phone.png') }}" alt=""></div>
-
-
-
-                            </div>
-                            <div class="address col-md-6 col-xs-6">
-                                <div class="at-sign email"><p>Your Email</p></div>
-                                <div class="location email"> <p>Address</p></div>
-                                <div class="email"><p>Phone Number</p></div>
-
-
-                            </div>
-                            <div class="col-md-4"></div>
-                        </div>
-
-                    </div>
+<div class="addresses">
+<div class="address" style="display: flex">
+<div><img class="at-sign" src="{{ ('cv-figma/images/at-sign.png') }}" alt=""></div>
+<div class="desc">Your Email</div>
+</div>
+<div class="address" style="display: flex">
+    <div><img class="location" src="{{ ('cv-figma/images/location.png') }}" alt=""></div>
+    <div class="desc1">address</div>
+    </div>
+    <div class="address" style="display: flex">
+        <div><img class="phone" src="{{ ('cv-figma/images/phone.png') }}" alt=""></div>
+        <div class="desc2">phone number</div>
+        </div>
+    </div>
                     <div class="skills">
                         <h2>Computer Skills</h2>
-                        <p>Text Processor</p>
-                        <p>Spreadsheet</p>
-                        <p>Slide Prese  ntation</p>
-                    </div>
-                    <div class="skills">
-                        <h2>Volunteer experience</h2>
-                        <p>Velveral food inc. </p>
-                        <p>Participation</p>
+                        <ul class="list1" style="list-style: none;">
+                            <li class="lines">Text Processor</li>
+                            <li class="lines">Spreadsheet</li>
+                            <li class="lines">Slide Presantation</li>
+                           </ul>
+
 
                     </div>
+                    <div class="experience">
+                        <h2>Volunteer Experience</h2>
+                        <ul class="list2" style="list-style: none;">
+                            <li >Velveral food inc.</li>
+                            <li>Participation</li>
+
+                           </ul>
+
+
+                    </div>
+
                 </div>
                 <div class="right col-md-6 col-xs-12">
                         <div class="education">
@@ -86,7 +89,7 @@
                             <p class="light-font">Name of university</p>
 
                         </div>
-                        <div class="education">
+                        <div class=" div2 education">
                             <h2>Work Experience </h2>
                             <div class="degree">
                                 <p>Junior UI   Designer</p>
@@ -100,14 +103,14 @@
                             <p class="light-font">Name of university</p>
 
                         </div>
-                        <div class="education">
-                            <h2>Work Experience </h2>
+                        <div class="div2 education">
+                            <h2>Languages </h2>
                             <p class="light-font">English-Native</p>
                             <p class="light-font">Franch-intermediate</p>
                             <p class="light-font">Spanish Basic</p>
 
                         </div>
-                        <div class="education ref">
+                        <div class="div2 education ref">
                             <h2>Reference </h2>
                             <p class="light-font">It is a long established fact that a reader will be distracted by the.</p>
 

@@ -3,15 +3,16 @@
     padding: 0;
 }
 .card{
-    box-shadow: 5px 10px 5px 10px white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     width: 70%;
-    margin:50px 200px;
+    margin:50px 300px;
+    width: 595px;
 }
 .horizontal{
     background: #78A060;
-margin-top: 80px;
-width: 100%;
-height: 295px;
+margin-top: 67px;
+width:595px;
+height: 192px;
 z-index: 1;
 }
 .title-info{
@@ -21,143 +22,293 @@ padding-top: 40px;
 padding-left: -90px;
 }
 .name{
+    position: absolute;
+    width: 195px;
+    height: 42px;
+    left: 298px;
+    top: 128px;
+
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-line-height: 42px;
-margin-top:90px;
-color: #FFFFFF;
-margin-left: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #FFFFFF;
 
 }
 .dasignation{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 298px;
+    top: 170px;
 
-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
 }
 .left{
     background: #78A060;
-width: 45%;
-height:1300px;
-margin-top: -376px;
-margin-left: 30px;
+width: 250px;
+height:900px;
+margin-top: -260px;
+margin-left: 38px;
 z-index: 0;
 }
 .profile-pic{
-    margin-top: 0px;
-    margin-left: 50px;
-    height: 300px;
-    width: 300px;
+    margin-top: -20px;
+    margin-left: 40px;
+    height:226px;
+    width: 226px;
 
 }
-.profile-info{
-    width: 70%;
-    margin-left: 70px;
-    margin-top:470px
-}
+
 .profile-info p{
+    position: absolute;
+    width: 194px;
+    height: 59px;
+    left: 65px;
+    top: 339px;
+
     font-family: 'Inter';
-font-style: normal;
-font-weight: 530;
-font-size: 20px;
-line-height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
 }
 .profile-info h2{
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 65px;
+    top: 304px;
+
     font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 22px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
 
 
-color: #000000;
+    color: #000000;
+
 
 }
+.address{
+display: flex;
+margin-top: 250px;
+margin-left: 9px;
+}
+
+
+
 .logo{
     margin-top: 50px;
     margin-left: 70px;
 
 }
-.address{
-    margin-top: 50px;
-}
+
 .at-sign
 {
-    margin-bottom: 25px;
-}
-.img-at-sign{
-    width: 25px;
-    height: 25  px;
-}
 
-.location{
-    margin-bottom: 25px;
-}
+    position: absolute;
+    left: 33.33%;
+    right: 33.33%;
+    top: 33.33%;
+    bottom: 33.33%;
+    margin-left:-130px;
+    margin-top: 175px;
 
-.email{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 17px;
-margin-bottom: 35px;
-color: #000000;
-}
-.skills{
-    margin-top: 50px;
-    margin-left: 70px;
+
+
+
 
 }
-.skills h2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 22px;
-
-}
-.skills p{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 530;
-    font-size: 20px;
-    line-height: 33px;
-
-}
-.education{
-    margin-left:50px;
-    margin-top: 80px;
-    font-weight: 600;
-    line-height: 33px;
-}
-.degree
-{
-    display: flex;
-}
-.year{
-    margin-left: 180px;
-}
-.light-font{
+.desc{
+    position: absolute;
+width: 108px;
+height: 21px;
+left: 101px;
+top: 479px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
+line-height: 17px;
+margin-top: -5px;
+margin-left: 10px;
+
+color: #000000;
+}
+.location{
+    margin-left: 8px;
+    margin-top: 15px;
+
+
+}
+.desc1{
+    position: absolute;
+    width: 108px;
+    height: 21px;
+    left: 101px;
+    top: 479px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    margin-top: 38px;
+    margin-left: 10px;
+}
+.phone{
+    margin-top: -250px;
+    margin-left: 10px;
+}
+.desc2{
+    margin-top: -255px;
+    margin-left: 19px;
+}
+.list2{
+    margin-left: -25px;
+}
+.list1{
+    margin-top: -50px;
+    margin-left: -25px;
+}
+
+
+.location{
+    margin-bottom: 25px;
+}
+
+
+.skills{
+    margin-top: -150px;
+    margin-left: 10px;
+
+
+}
+.skills h2{
+    position: absolute;
+    width: 138px;
+    height: 22px;
+    left: 66px;
+    top: 597px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.experience{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.experience h2{
+    position: absolute;
+    width: 187px;
+    height: 22px;
+    left: 68px;
+    top: 724px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* identical to box height */
+
+margin-top: 30px;
+    color: #000000;
+}
+.addresses{
+        margin-top: 30px;
+}
+.education{
+    margin-left:0px;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 0px;
+}
+.education h2{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+margin-top: 45px;
+margin-left: 40px;
+
+color: #000000;
+}
+.degree
+{
+    display: flex;
+    margin-left: 40px;
+}
+.degree p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
 line-height: 15px;
 /* identical to box height */
 
 
 color: #000000;
+
+}
+.year{
+    margin-left: 50px;
+}
+.light-font{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+/* identical to box height */
+
+margin-left: 40px;
+color: #000000;
 }
 .ref
 {
     margin-top: 40px;
+}
+.div2{
+    margin-top: -25px;
 }
 
  @media only screen and (max-width: 600px)
@@ -166,39 +317,84 @@ color: #000000;
     width: 200px;
     height: 200px;
     margin-top: -40px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
-
+body {
+    margin: 78px;
+    margin-top: -50px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
 .card{
-    margin-left: 30px;
-    width: 100%;
+    margin-left: -30px;
+    width: 120%;
 }
 .left{
     width: 100%;
     margin-left: 0px;
+    width: 100%;
+    float: right;
 }
+.at-sign {
+    position: absolute;
+    left: 33.33%;
+    right: 33.33%;
+    top: 33.33%;
+    bottom: 33.33%;
+    margin-left: -68px;
+    margin-top: -9px;
+}
+.location {
+    margin-left: -29px;
+    margin-top: -220px;
+}
+.phone {
+    margin-top: -53px;
+    margin-left: -28px;
+}
+.desc2 {
+    margin-top: -58px;
+    margin-left: 19px;
+}
+.list2 {
+    margin-top: -51px;
+    margin-left: 13px;
+}
+.list1{
+    margin-left: 25px;
+    padding-top: -50px;
+}
+
 .horizontal{
-    width: 90%;
+    width: 80%;
     margin-left: 35px;
 }
 .profile-info{
-    margin-top:380px;
-    margin-left: 10px;
+    margin-top:980px;
+    margin-left: -20px;
+    width: 60%;
+
 }
 .name{
-    margin-left: 70px;
-    margin-top: 10px;
+    margin-left: -200px;
+    margin-top: 104px;
 }
 .dasignation{
-    margin-left: 70px;
-    margin-top: 10px;
+    margin-left: -170px;
+    margin-top: 104px;
 }
 .logo{
     margin-left: 10px;
 }
 .address{
     margin-top: -120px;
-    margin-left: 70px;
+    padding-left: 70px;
 }
 .skills{
     margin-left: 0px;
