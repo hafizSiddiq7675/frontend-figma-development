@@ -195,7 +195,7 @@
 
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-10">
+                                    <div class=" all-images col-md-12">
                                         <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item1 active">
@@ -296,7 +296,7 @@
         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12" >
             <div class="info-1">
               <div  class="images" ><img src="{{ asset('images/fireEmoji.png') }}" alt="" class="info1">
-               <div> <h1 class="heading">Safe Shopping</h1></div>
+               <div> <p class="heading">Safe Shopping</p></div>
                 <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et</p></div>
               </div>
 
@@ -305,12 +305,12 @@
 
 
               <div ><img src="{{ asset('images/planEmojipng.png') }}" alt="" class="info1">
-                <div><h1 class="heading">Fast Delivery</h1></div>
+                <div class="heading" style="margin-left: 30px"><p >Fast Delivery</p></div>
                 <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et</p></div>
               </diV>
 
               <div ><img src="{{ asset('images/coinEmojipng.png') }}" alt="" class="info1">
-              <div><h1 class="heading">Free Shipping</h1></div>
+              <div><p class="heading">Free Shipping</p></div>
               <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et</p></div>
               </div>
            </div>
@@ -648,20 +648,20 @@
               <form class="linkss d-flex ml-auto">
                   <ul class=" list navbar-nav  ml-auto">
                       <li class="nav-item2">
-                          <a class="nav-link2" class="home">Home</a>
+                          <a class="home-footer">Home</a>
                         </li>
                       <li class="nav-item2">
-                          <a class="nav-link2" class="about-us">About Us</a>
+                          <a class="about-us-footer" >About Us</a>
                         </li>
                         <li class="nav-item2">
-                          <a class="nav-link2" class="reason-why">How it works</a>
+                          <a class="how-footer" >How it works</a>
                         </li>
 
-                        <li class="nav-item2">
-                          <a class="nav-link2" class="contact-us">Contact Us</a>
+                        <li >
+                          <a  class="contact-us-footer">Contact </a>
                         </li>
                         <li class="nav-item2">
-                          <a class="nav-link2" class="help">Help</a>
+                          <a class="help-footer">Help</a>
                         </li>
                     </ul>
               </form>
