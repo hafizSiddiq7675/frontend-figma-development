@@ -203,14 +203,14 @@ color: #000000;
     width: 138px;
     height: 22px;
     left: 66px;
-    top: 597px;
+
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    margin-top: 27px;
+    margin-top: -27px;
     /* identical to box height */
 
 
@@ -363,13 +363,20 @@ body {
     margin-left: 19px;
 }
 .list2 {
-    margin-top: -51px;
+    margin-top: -21px;
     margin-left: 13px;
 }
 .list1{
+    margin-top: -50px !important;
     margin-left: 25px;
-    padding-top: -50px;
 }
+.skills h2{
+    margin-top: -40px;
+}
+.experience h2{
+    margin-top: 60px;
+}
+
 
 .horizontal{
     width: 80%;

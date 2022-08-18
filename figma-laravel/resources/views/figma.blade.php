@@ -51,6 +51,12 @@
       display: block;
 
     }
+    .carousel-item1 {
+      margin-right: 0;
+      flex: 0 0 30%;
+      display: block;
+
+    }
     .carousel-inner {
       display: flex;
     }
@@ -187,32 +193,65 @@
 
 
 
+                            <div class="container">
+                                <div class="row">
+                                    <div class=" all-images col-md-12">
+                                        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item1 active">
+                                                    <div class="card1">
+                                                    <img class="img2" src="{{ ('images/unsplash_8WC3ibi7MTg.png') }}" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item1">
+                                                    <div class="card1">
+                                                    <img class="img2" src="{{ ('images/unsplash_B0G8xzwTVWc.png') }}" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item1">
+                                                    <div class="card1">
+                                                    <img class="img2" src="{{ ('images/unsplash_B0G8xzwTVWc.png') }}" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item1">
+                                                    <div class="card1">
+                                                    <img class="img2" src="{{ ('images/unsplash_B0G8xzwTVWc.png') }}" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item1">
+                                                    <div class="card1">
+                                                    <img class="img2" src="{{ ('images/unsplash_B0G8xzwTVWc.png') }}" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item1">
+                                                    <div class="card1">
+                                                    <img class="img2" src="{{ ('images/unsplash_B0G8xzwTVWc.png') }}" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item1">
+                                                    <div class="card1">
+                                                    <img class="img2" src="{{ ('images/unsplash_B0G8xzwTVWc.png') }}" alt="">
+                                                    </div>
+                                                </div>
 
-                            {{-- <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="img1" src="{{ ('images/unsplash_8WC3ibi7MTg.png') }}" alt="">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="img2" src="{{ ('images/unsplash_B0G8xzwTVWc.png') }}" alt="">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="{{ asset('images/arrow.png') }}" class="arrow-sider"/>
-                                    </div>
 
-                                    <div class="carousel-item">
-                                        <img class="img1" src="{{ ('images/unsplash_8WC3ibi7MTg.png') }}" alt="">
+
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                                <span class="slide-left" aria-hidden="true"><img class="first-image" src="{{ asset('images/left-arrow.png') }}" alt="previous button"/></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                                <span class="slide-right" aria-hidden="true"><img class="second-image" src="{{ asset('images/right-arrow.png') }}" alt="previous button"/></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="slide-left" aria-hidden="true"><img src="{{ asset('images/left-arrow.png') }}" alt="previous button"/></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="slide-right" aria-hidden="true"><img src="{{ asset('images/right-arrow.png') }}" alt="previous button"/></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div> --}}
+                            </div>
 
 
 
@@ -220,10 +259,8 @@
 
 
 
-                                    <div class=" buttons col-md-2 col-xs-2">
-                                        <div><img src="{{ ('images/small-slider-right.png') }}" alt=""></div>
-                                        <div><img src="{{ ('images/small-slider-left.png') }}" alt=""></div>
-                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -259,7 +296,7 @@
         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12" >
             <div class="info-1">
               <div  class="images" ><img src="{{ asset('images/fireEmoji.png') }}" alt="" class="info1">
-               <div> <h1 class="heading">Safe Shopping</h1></div>
+               <div> <p class="heading">Safe Shopping</p></div>
                 <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et</p></div>
               </div>
 
@@ -268,12 +305,12 @@
 
 
               <div ><img src="{{ asset('images/planEmojipng.png') }}" alt="" class="info1">
-                <div><h1 class="heading">Fast Delivery</h1></div>
+                <div class="heading" style="margin-left: 30px"><p >Fast Delivery</p></div>
                 <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et</p></div>
               </diV>
 
               <div ><img src="{{ asset('images/coinEmojipng.png') }}" alt="" class="info1">
-              <div><h1 class="heading">Free Shipping</h1></div>
+              <div><p class="heading">Free Shipping</p></div>
               <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et</p></div>
               </div>
            </div>
@@ -611,20 +648,20 @@
               <form class="linkss d-flex ml-auto">
                   <ul class=" list navbar-nav  ml-auto">
                       <li class="nav-item2">
-                          <a class="nav-link2" class="home">Home</a>
+                          <a class="home-footer">Home</a>
                         </li>
                       <li class="nav-item2">
-                          <a class="nav-link2" class="about-us">About Us</a>
+                          <a class="about-us-footer" >About Us</a>
                         </li>
                         <li class="nav-item2">
-                          <a class="nav-link2" class="reason-why">How it works</a>
+                          <a class="how-footer" >How it works</a>
                         </li>
 
-                        <li class="nav-item2">
-                          <a class="nav-link2" class="contact-us">Contact Us</a>
+                        <li >
+                          <a  class="contact-us-footer">Contact </a>
                         </li>
                         <li class="nav-item2">
-                          <a class="nav-link2" class="help">Help</a>
+                          <a class="help-footer">Help</a>
                         </li>
                     </ul>
               </form>
@@ -671,6 +708,43 @@
           if (scrollPosition > 0) {
             scrollPosition -= cardWidth;
             $("#carouselExampleControls .carousel-inner").animate(
+              { scrollLeft: scrollPosition },
+              600
+            );
+          }
+        });
+      } else {
+        $(multipleCardCarousel).addClass("slide");
+      }
+
+
+
+    </script>
+
+<script>
+    var multipleCardCarousel = document.querySelector(
+        "#carouselExampleControls1"
+      );
+      if (window.matchMedia("(min-width: 768px)").matches) {
+        var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+          interval: false,
+        });
+        var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+        var cardWidth = $(".carousel-item1").width();
+        var scrollPosition = 0;
+        $("#carouselExampleControls1 .carousel-control-next").on("click", function () {
+          if (scrollPosition < carouselWidth - cardWidth * 4) {
+            scrollPosition += cardWidth;
+            $("#carouselExampleControls1 .carousel-inner").animate(
+              { scrollLeft: scrollPosition },
+              600
+            );
+          }
+        });
+        $("#carouselExampleControls1 .carousel-control-prev").on("click", function () {
+          if (scrollPosition > 0) {
+            scrollPosition -= cardWidth;
+            $("#carouselExampleControls1 .carousel-inner").animate(
               { scrollLeft: scrollPosition },
               600
             );

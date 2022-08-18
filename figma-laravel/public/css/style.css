@@ -54,6 +54,7 @@ padding-top: 37px;
 }
 .bella{
     margin-left:140px;
+    margin-top: 30px;
 }
 .rect{
     margin-top: -800px;
@@ -188,6 +189,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 20px;
 padding-top: 43px;
+margin-top: 30px;
 color: #4F433F !important;
 
 }
@@ -218,13 +220,21 @@ color: #4F433F !important;
     margin-top: -5px;
 
 }
-.img2 {
-    width: 25%;
-    height: 104px;
-    margin-top: 20px;
-    margin-left: 20px
+.card1 {
+    margin: 0 0.5em;
+    box-shadow: 0px 0px 0px 0 rgb(22 22 26 / 18%) !important;
+    border: none;
 }
-
+.img2 {
+    width: 98px;
+    height: 102px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.all-images{
+    margin-left: -30px;
+    margin-top: -5px;
+}
 .img3 {
     width: 25%;
     height: 104px;
@@ -233,6 +243,7 @@ color: #4F433F !important;
 }
 .buttons{
     margin-top: 40px;
+    margin-left: 10px;
 
 }
 .img4-1{
@@ -245,7 +256,18 @@ color: #4F433F !important;
 
 }
 
-
+.first-image{
+    margin-left: 886px;
+    margin-top: 73px;
+    width: 25px;
+    height: 25px;
+}
+.second-image{
+    width: 25px;
+    height: 25px;
+    margin-left: -26px;
+    margin-top: 12px;
+}
 .container-fluid{
     width: 100%;
     padding-right: var(--bs-gutter-x, 0) !important;
@@ -262,11 +284,13 @@ color: #4F433F !important;
         margin-left: 15px;
     }
     .nav-link{
-      margin-left: 150px;
+        padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    font-family: sans-serif !important;
+    margin-top: 80px !important;
+    margin-left: -19px !important;
     }
-    .bella{
-        margin-left: 10px;
-    }
+
     .section-bg{
         height: 1000px;
     }
@@ -283,12 +307,10 @@ color: #4F433F !important;
     margin-top: 300px;
 }
     .img1 {
-        width: 24%;
-        height: 104px;
-        top: 620px;
-        left: 782px;
-        margin-top: 20px;
-        margin-left: 20px
+        width: 86%;
+    height: 92px;
+    margin-top: 22px;
+    margin-left: 20px
     }
 
     .img2 {
@@ -437,8 +459,17 @@ font-size: 16px;
         justify-content: space-around;
         margin-left: 10px;
       }
-      .heading{
-        margin-left: 40px;
+      .heading p{
+        margin-left: 80px;
+        font-family: 'Brasley';
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+
+color: #000000;
       }
       .images{
         margin-left: 50px;
@@ -931,3 +962,87 @@ mix-blend-mode: normal;
         display: flex !important;
       }
   }
+.home-footer{
+    width: 48px;
+height: 24px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+text-decoration: none;
+}
+.about-us-footer{
+    width: 70px;
+height: 24px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+text-decoration: none;
+}
+.how-footer{
+    width: 129px;
+height: 24px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+text-decoration: none;
+}
+.contact-us-footer{
+    width: 64px;
+height: 24px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+text-decoration: none;
+margin-left: 25px;
+}
+.help-footer{
+    height: 24px;
+left: 63.33%;
+right: 34.17%;
+top: calc(50% - 24px/2 + 4.5px);
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #FFFFFF;
+
+text-decoration: none;
+margin-left: 25px;
+}

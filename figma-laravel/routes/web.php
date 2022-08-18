@@ -22,3 +22,9 @@ Route::get('/figma1', function () {
 Route::get('/figma2', function () {
     return view('cv-figma');
 });
+Route::get('/crypto', function () {
+    return view('crypto-figma');
+});
+Route::get('/figma3', function () {
+    return view('figma-crypto');
+});
