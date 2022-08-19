@@ -2,19 +2,27 @@
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Work+Sans:ital,wght@1,100;1,400&display=swap');
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Header%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
 header{
 width:100%;
-height: 885px;
+height: 905px;
 background-color: #08001A;
 background-image: url("/crypto-figma/images/union.png");
-
-
+}
+@font-face {
+    font-family: 'IvyMode';
+    src: url('/figma-laravel/public/font1/IvyMode-Light.eot');
+    src: url('/figma-laravel/public/Font1/IvyMode-Light.eot?#iefix') format('embedded-opentype'),
+         url('/figma-laravel/public/Font1/IvyMode-Light.woff') format('woff'),
+         url('/figma-laravel/public/Font1/IvyMode-Light.ttf') format('truetype'),
+         url('/figma-laravel/public/Font1/IvyMode=Light.svg#SansationLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
-.main{
 
-}
 .bg-img{
 
 margin-top: -100px;
@@ -38,6 +46,7 @@ line-height: 150%;
 color: #F7F7F7
 }
 .top-text{
+    padding-top: 50px;
     font-family: 'Red Rose';
 font-style: normal;
 font-weight: 700;
@@ -124,7 +133,7 @@ color: #2F2D2D;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 10px;
 line-height: 150%;
 padding-top: 10px;
 /* or 27px */
@@ -136,16 +145,23 @@ color: #6B7280;
 .overlay{
     opacity: 0;
     background-color: white;
+    margin-top: -16px;
+
 }
 .cards:hover{
-    width:323px;
-    height: 383px;
+
+    height: 342px;
     border: solid white 10px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
     transition: 0.5s ease;
-    margin-top: -40px;
-    border-radius: 18px;
+    border-radius: 15px;
+    transform: scale(1.3);
+    margin-top: 10px;
+
+
 }
+
+
 .overlay:hover{
     opacity:1;
     transition: 0.5s ease;
@@ -158,7 +174,7 @@ color: #6B7280;
 
 
 
-
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%section2%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 
 .section2{
@@ -271,7 +287,7 @@ margin-top: -10px;
 
 
 
-
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Section3$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 
 
@@ -304,7 +320,7 @@ color: #515151;
     margin-top: -50px;
 }
 .card3{
-    margin-top: ;
+    margin-top: 80px;
 }
 .cloud{
     width: 97px;
@@ -376,21 +392,283 @@ height: 72px;
 }
 .dotline1{
     margin-top: -300px;
-    margin-left: 250px;
+    margin-left: 290px;
 }
 .dotline2{
     margin-top: 0px;
-    margin-left: 550px;
+    margin-left: 570px;
 }
 .dotline3{
     margin-top: -10px;
-    margin-left:900px;
+    margin-left:880px;
+}
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Section4$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+
+
+.section4{
+    margin-top: 450px;
+
+}
+.top{
+    margin-left: 71px;
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 70px;
+/* identical to box height, or 175% */
+width: 369px;
+height: 70px;
+text-align: center;
+
+color: #2F2D2D;
+}
+.top p{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #515151;
+
+}
+.boy{
+    width: 471px;
+height: 471px;
+}
+.card4{
+    display: flex;
+    margin-top: 52px;
+    margin-left:-10px;
+    margin-bottom: -60px;
+}
+.logo{
+    width: 44px;
+height: 44px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.disc{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+margin-top: 50px;
+margin-left: 15px;
+
+color: #515151;
+}
+.disc p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #2F2D2D;
+
+}
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Section5$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+
+.section5{
+    background-image: url("/crypto-figma/images/bg.png");
+    margin-top: 180px;
+}
+.trader{
+    width: 539px;
+height: 140px;
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 70px;
+/* or 175% */
+margin-left: 340px;
+text-align: center;
+
+color: #2F2D2D;
+}
+.cards2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 150px;
+}
+.card5{
+    margin-top: 40px;
+    width: 290px;
+height: 364px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+
+}
+.image{
+    width: 90px;
+height: 67px;
+margin-top: 50px;
+margin-left: 100px;
+}
+.buy{
+    margin-top: 40px;
+}
+.buy p{
+
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+color: #000000;
+
+border: 0.5px solid #FFFFFF;
+
+}
+.para3{
+    margin-top: 40px;
+}
+.para3 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+color: #515151;
+
+}
+.button{
+width: 121px;
+height: 36px;
+border: 1px solid #8F60FF;
+border-radius: 4px;
+margin-top:24px;
+margin-left: 84px;
+padding: 7px 13px;
+}
+.button p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+color: #8F60FF;
+
+}
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Footer$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+footer{
+    margin-top: 100px;
+    width: 100%;
+height: 382px;
+background: #FFFFFF;
+background-image: url("/crypto-figma/images/bg.png");
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+display: flex;
+
+}
+.left-footer{
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+margin-top: 100px;
+margin-left:118px
+color: #000000;
+}
+.left-footer p{
+    height: 24px;
+    margin-top: 24px;
+    margin-left:118px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+
+color: #515151;
+}
+.right-footer{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+letter-spacing: -0.231818px;
+
+color: #8F60FF;
+margin-left: 150px;
+margin-top: 100px;
+
+}
+.right-footer p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: -0.204545px;
+
+color: #515151;
+}
+.ready
+{
+    margin-left:-400px;
 }
 
 
 
 
 
+
+
+
+
+
+
+/* ___________________________________________Mobile Responsive__________________________________ */
 
 
 @media only screen and (max-width: 600px){
@@ -402,7 +680,7 @@ margin-left: 0px;
 .main-heading{
     width: 466px;
     height: auto;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: -200px;
 }
 .main-heading p{
@@ -411,17 +689,22 @@ margin-left: 0px;
 .slider{
     display: flex;
     flex-direction:column;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 header{
     height: 2000px;
+    width: 130%;
 
 }
+
 .section2{
    display: flex;
    flex-direction:column;
    height: 900px;
    width: 300px;
+   margin-left: 100px;
+   margin-top: 160px;
+
 
 }
 .card2{
@@ -429,7 +712,8 @@ header{
 }
 
 .cards:hover{
-margin-left: -35px;
+
+transform: scale(1.3);
 }
 .para{
     margin-left: 10px;
@@ -439,12 +723,167 @@ margin-left: -35px;
  display: none;
 }
 .cloud, .mobile , .doller, .arrow {
-    margin-left: 200px;
+    margin-left: 180px;
 }
 .para2{
-    margin-left: 130px;
+    margin-left: 100px;
+}
+.step {
+    margin-left: 90px;
+}
+.download{
+    margin-left: 90px;
+}
+.HIW{
+    margin-left: 70px;
+}
+.section4{
+    margin-top: 0px;
+    margin-left: -30px;
+}
+.card4{
+    margin-left: 30px;
+}
+.boy img{
+    width: 371px;
+    height: 371px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.cards2{
+    display: flex;
+    flex-direction: column;
+}
+.trader{
+
+    width: 339px;
+    height: 140px;
+    margin-left: 63px;
+    font-size: 30px;
+
+}
+.card5{
+    margin-left: -50px;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    height:55%
+}
+.ready{
+    margin-left: 0;
+}
+.left-footer{
+    margin-left: -120px;
+}
+.right-footer{
+    margin-left: 50px;
 }
 }
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%section6%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+.section6{
+    margin-top: 180px
+
+}
+
+.part{
+    width: 100%;
+height: 289px;
+
+background: #FFFFFF;
+/* opacity: 0.6; */
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+.part-top{
+    display:flex;
+
+    margin-left: 40px;
+
+}
+.girl-image{
+    margin-top: 56px;
+
+}
+.part-title{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.light1{
+    margin-top:-20px
+}
+.bold1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+
+font-size: 20px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.sign{
+    margin-left: 76px;
+    margin-top: 46px;
+}
+.para4{
+    margin-top: 33px;
+    width: 253px;
+height: 96px;
+}
+.para4 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-left: 40px;
+color: #6B7280;
+text-align: start;
+
+}
+.testmonial{
+    width: 262px;
+height: 60px;
+margin-left: 550px;
+margin-top: 80px;
+margin-bottom: 50px;
+}
+.testmonial p{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+
+@media only screen and (max-width: 600px){
+    .testmonial{
+        margin-left: 90px;
+    }
+    .part{
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+}
+
 
 
 
