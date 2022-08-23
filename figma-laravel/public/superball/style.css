@@ -4,8 +4,524 @@
 }
 body
 {
+  background-color: rgba(36,36,53,255) !important;
     background-image: url("/superball/images/background.png");
-    width:100%;
-height: 2158px;
 
+    background-blend-mode: lighten !important;
+    width:100%;
+    height: 2158px;
+}
+.shadow1{
+ margin-top: 67px;
+ margin-left: -30px;
+}
+.circle1{
+    margin-top: -285px;
+    margin-left: 366px;
+}
+.circle2{
+    width: 57px;
+height: 57px;
+margin-left: 390px;
+margin-top: -400px;
+}
+.circle3{
+    width: 224px;
+height: 224px;
+margin-top:-100px;
+margin-left: 980px;
+}
+.navbar{
+    display: flex;
+    margin-top: -700px;
+    background:  #242435;;
+    width: 100%;
+height: 70px;
+}
+.top-title{
+    margin-top: 28px ;
+    margin-left: 136px;
+}
+.top-title p{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    background: linear-gradient(100.08deg, #18F5F5 4.04%, #F5B7D2 23.51%, #E744F6 44.63%, #862DFB 60.37%, #00DBF9 83.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.left-navbar{
+    margin-right:140px ;
+    margin-top: 28px;
+    display: flex;
+
+}
+.login{
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+background:transparent;
+border-radius: 40px;
+width: 93px;
+height: 39px;
+padding-left: 22px;
+    padding-top: 11px;
+color: #FCFCFC;
+}
+.login:hover{
+    background: #3F3F55;
+    width: 93px;
+    height: 39px;
+}
+.flag-icon{
+    display: flex;
+    gap: 8px;
+
+    border-radius: 40px;
+width: 93px;
+height: 39px;
+padding-left: 22px;
+    padding-top: 13px;
+}
+.flag-icon p{
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Main White */
+
+color: #FCFCFC;
+
+}
+.flag-icon:hover{
+    background: #3F3F55;
+    border-radius: 40px;
+    width: 93px;
+    height: 39px;
+}
+.flag{
+    margin-top: 3px;
+    width: 12px;
+height: 12px;
+
+}
+.arrow{
+    margin-top: 5px;
+    width: 10px;
+    height: 4.73px;
+}
+.top-paragraph{
+    margin-top: 198px;
+    width: 612px;
+height: 144px;
+
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 34px;
+line-height: 48px;
+color: #FFFFFF;
+}
+span{
+    color: #E744F6;
+}
+.button{
+    width: 190px;
+    height: 65px;
+    border-radius: 30px;
+    background: transparent;
+    border-style: solid;
+    border-color:#E744F6;
+
+}
+.button p{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FCFCFC;
+}
+.card1{
+    width: 370px;
+height: 483px;
+
+background: rgba(36, 36, 53, 0.5);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 32px;
+border-style: solid;
+border-color:#E744F6;
+margin-left: 150px;
+margin-top: 80px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.logo{
+  margin :32px;
+}
+.card-title{
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 80px;
+/* identical to box height */
+
+
+/* fuchsia */
+
+color: white;
+margin: 12px 72px;
+}
+.prize{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    width: 396px;
+
+    /* fuchsia */
+
+    color:white;
+    opacity: 0;
+
+}
+.buy{
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 1000;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+width: 250px;
+height: 64px;
+
+color: #FFFFFF;
+
+
+
+
+}
+.buy:hover{
+    border: 1px solid #FFFFFF;
+}
+.buy-now{
+    margin-top: 285px;
+    margin-left: 62px;
+
+}
+.para{
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+/* or 169% */
+
+width: 646px;
+height: 54px;
+/* Main White */
+
+color: #FCFCFC;
+}
+.circle{
+    width: 60px;
+height: 60px;
+border-radius: 30px;
+margin-left: 770px;
+margin-top: -50px;
+background: #E744F6;
+z-index: 0;
+}
+.circle p{
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+padding-top: 10px;
+color: #FFFFFF;
+}
+.other-sections{
+    background-image: url("/superball/images/snake.png");
+
+
+    margin-top: -300px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    margin:60px 50px;
+}
+.card2{
+    width:500px;
+height: 283px;
+
+/* Dark BG */
+
+background: #242435;
+/* 300 main */
+
+border: 1px solid #3F3F55;
+border-radius: 32px;
+}
+.card-hide{
+    background: #3F3F55;
+}
+.card-top{
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+margin-top: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.card-center{
+margin-top: 36px;
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+text-align: center;
+
+/* Main White */
+
+color: #FCFCFC;
+}
+.card-bottom{
+
+        width: 150px;
+        height: 65px;
+        border-radius: 30px;
+        background: transparent;
+        border-style: solid;
+        margin-left: 35px;
+        margin-top: 35px;
+        border-color:#E744F6;
+        font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+padding-left: 30px;
+padding-top:20px;
+
+color: #FCFCFC;
+
+
+}
+.signup-btn{
+    opacity: 0;
+    width: 450px;
+    height: 65px;
+    border-radius: 30px;
+    background: transparent;
+    border-style: solid;
+    margin-left: 10px;
+    margin-top: 75px;
+
+    border-color:#E744F6;
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+padding-left: 30px;
+padding-top:20px;
+
+color: #FCFCFC;
+
+}
+.reserve{
+opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .circle3{
+        margin-left: 200px;
+        margin-top: 300px;
+    }
+    .top-title{
+        margin-left: -35px;
+        margin-top: 15px;
+    }
+    .navbar{
+        margin-top: -600px;
+        margin-left: 60px;
+        background-color:  #242435;
+    }
+    .top-paragraph{
+        margin-top: 562px;
+        margin-left: 40px;
+        width: 396px;
+        font-family: 'Encode Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+
+        /* Main White */
+
+        color: #FCFCFC;
+    }
+    .card1{
+        background: rgba(36, 36, 53, 0.5);
+        backdrop-filter: blur(40px);
+        margin-left:38px;
+        margin-top: -703px;
+
+
+    }
+    .prize{
+        opacity: 1;
+        margin-left: 47px;
+    }
+    .para {
+        font-family: 'Encode Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 27px;
+        width: 439px;
+        height: 54px;
+        color: #FCFCFC;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .circle1{
+        margin-left: -300px;
+        margin-top: 150px;
+    }
+    .circle2{
+        margin-top: -500px;
+
+    }
+    .circle3{
+margin-top: -170px;
+margin-left: 257px;
+    }
+    .button{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+    .left-navbar{
+        margin-top: -45px;
+        margin-left: 240px;
+    }
+    .flag-icon{
+        display: none;
+    }
+.buy-now{
+    display: none;
+}
+.circle{
+    margin-top: 2000px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 45px;
+    margin-top: 180px;
+}
+
+.card2{
+    width: 220px;
+    margin-top: 400px;
+}
+.card-hide{
+    margin-top: -600px;
+    width: 456px;
+    margin-left: -480px;
+    background: #3F3F55;
+}
+.fourth{
+    margin-left: 360px;
+    margin-top: -300px;
+}
+.first{
+    margin-left: 120px;
+}
+.second{
+    margin-left: -245px;
+}
+.thrid{
+    margin-left: 120px;
+    margin-top: 0px;
+
+}
+.hide{
+    width: 400px;
+    padding-left: 150px;
+}
+.signup-btn{
+    opacity: 1;
+    padding-left: 185px;
+}
+.reserve {
+    opacity: 1;
+    font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 64px;
+/* identical to box height, or 200% */
+
+text-transform: uppercase;
+color:white;
+border: 1px solid #FCFCFC;
+
+}
 }
