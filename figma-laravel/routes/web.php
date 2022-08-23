@@ -25,6 +25,7 @@ Route::get('/figma2', function () {
 Route::get('/crypto', function () {
     return view('crypto-figma');
 });
-Route::get('/figma3', function () {
-    return view('figma-crypto');
+Route::get('test', function () {
+    return view('superball');
 });
+

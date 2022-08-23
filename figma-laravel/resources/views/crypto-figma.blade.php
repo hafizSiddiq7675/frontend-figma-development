@@ -14,16 +14,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Red Rose' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Ivy Mode' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="http://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
  <header>
     <div class="main">
     <p class="top-text">CryptoPayments</p>
-
     <img class="bg-img" src="{{ ('crypto-figma/images/bg2.png') }}" alt="">
     <div class="main-heading">
         <p>Crypto payments is a crypto
@@ -261,8 +260,6 @@
             <div class="button">
                 <p>Buy Crypto</p>
             </div>
-
-
         </div>
         <div class="card5">
             <div class="image">
@@ -292,16 +289,13 @@
                 <p>Buy Crypto</p>
             </div>
         </div>
-
     </div>
 </section>
-
 <section class="section6">
     <div class="testmonial"><p>Testimonials</p></div>
     <div class="container">
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-
           <div class="part" >
             <div class="part-top">
               <div class="girl-image"><img src="{{ asset('images/girl-imagepng.png') }}" alt=""></div>
@@ -318,7 +312,6 @@
                 in the room list.</p>
             </div>
           </div>
-
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
           <div class="part" >
@@ -365,29 +358,15 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
     </div>
     <div class="right-footer">
-
         <div class="navigation"> Navigation</div>
         <p>Email Marketing</p>
         <p>Compaigns</p>
         <p>Branding</p>
         <p>Offline</p>
     </div>
+    <div class="get-start">
+        <p>Get Started </p>
+    </div>
 </footer>
-
-
-
-
-<script>
-    $("#carousel-slider").slick({
-    arrows: false,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    mobileFirst: true
-});
-</script>
-
 </body>
 </html>
