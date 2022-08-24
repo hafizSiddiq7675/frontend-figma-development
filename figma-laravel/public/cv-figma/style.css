@@ -7,6 +7,8 @@
     width: 70%;
     margin:50px 300px;
     width: 595px;
+    justify-content: center;
+    align-items: center;
 }
 .horizontal{
     background: #78A060;
@@ -407,4 +409,9 @@ body {
     margin-left: 0px;
 }
 
+}
+@media (min-width: 1652px){
+.card{
+    margin-left: 700px;
+}
 }

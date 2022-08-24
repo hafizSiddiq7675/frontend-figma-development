@@ -16,14 +16,14 @@ body
  margin-left: -30px;
 }
 .circle1{
-    margin-top: -285px;
+    margin-top: -425px;
     margin-left: 366px;
 }
 .circle2{
     width: 57px;
 height: 57px;
 margin-left: 390px;
-margin-top: -400px;
+margin-top: -450px;
 }
 .circle3{
     width: 224px;
@@ -174,7 +174,7 @@ border-radius: 32px;
 border-style: solid;
 border-color:#E744F6;
 margin-left: 150px;
-margin-top: 80px;
+margin-top: 50px;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -272,7 +272,7 @@ color: #FFFFFF;
     background-image: url("/superball/images/snake.png");
 
 
-    margin-top: -300px;
+    margin-top: -400px;
 
 }
 .cards{
@@ -417,7 +417,7 @@ opacity: 0;
     .card1{
         background: rgba(36, 36, 53, 0.5);
         backdrop-filter: blur(40px);
-        margin-left:38px;
+        margin-left:45px;
         margin-top: -703px;
 
 
@@ -508,6 +508,7 @@ margin-left: 257px;
 }
 .signup-btn{
     opacity: 1;
+    margin-left: 6px;
     padding-left: 185px;
 }
 .reserve {

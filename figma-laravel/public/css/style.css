@@ -907,6 +907,14 @@ mix-blend-mode: normal;
         height:50%;
     }
 
+    .carousel-inner {
+        display: flex !important;
+        flex-direction: row !important;
+        position: relative;
+        width: 13%;
+        /* overflow: hidden; */
+    }
+
 }
 
 .carousel-inner1 {
@@ -938,6 +946,7 @@ mix-blend-mode: normal;
     .carousel-inner1 {
       display: flex !important;
     }
+
   }
   .card1 .img-wrapper1 {
       max-width: 100%;
@@ -1045,4 +1054,22 @@ color: #FFFFFF;
 
 text-decoration: none;
 margin-left: 25px;
+}
+@media (min-width: 1652px){
+.image3{
+    width: 600px;
+    height: 160px;
+}
+.img2{
+    width: 133px;
+    height: 122px;
+}
+.first-image{
+    margin-left: 1202px;
+
+}
+.second-image{
+    margin-left: 11px;
+}
+
 }
