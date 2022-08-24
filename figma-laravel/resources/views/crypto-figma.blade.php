@@ -129,6 +129,7 @@
     </div>
 
 </section>
+<div class="section-three">
 <section class="section3">
     <p class="HIW" >How It Works</p>
     <div class="para">
@@ -194,6 +195,7 @@
 
 
 </section>
+</div>
 <section class="section4">
     <div class="container">
         <div class="row">
