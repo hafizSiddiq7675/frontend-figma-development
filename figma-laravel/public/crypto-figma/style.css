@@ -11,7 +11,7 @@
 
 header{
 width:100%;
-height: 905px;
+height: 915px;
 background-color: #08001A;
 background-image: url("/crypto-figma/images/union.png");
 }
@@ -51,7 +51,7 @@ margin-left: 164px;
 .slider{
     display: flex;
     gap: 25px;
-    margin-top: 178px;
+    margin-top: 188px;
     margin-bottom: 26px;
     margin-left: -30px;
 }
@@ -743,11 +743,13 @@ margin-left: 0px;
     margin-left: 130px;
 }
 header{
-    height: 2000px;
+    height: 2300px;
     width: 130%;
 
 }
-
+.cards:hover .overlay{
+    margin-top:55px ;
+}
 .section2{
    display: flex;
    flex-direction:column;
@@ -761,10 +763,47 @@ header{
 .card2{
     margin-left: 40px;
 }
-
+.cards{
+    margin-top: 30px;
+}
 .cards:hover{
 
-transform: scale(1.3);
+width: 300px;
+height: 370px;
+margin-left: -30px;
+margin-top: 20px;
+}
+.cards:hover .first-image {
+    width:107px;
+    height: 206;
+    margin-left: 80px;
+    margin-top: -5px;
+
+}
+.cards:hover .second-image {
+    width:107px;
+    height: 206;
+    margin-left: 80px;
+    margin-top: -5px;
+}
+.cards:hover .third-image {
+    width:107px;
+    height: 206;
+    margin-left: 80px;
+    margin-top: -5px;
+}
+.cards:hover .fourth-image {
+    width:107px;
+    height: 206;
+    margin-left: 80px;
+    margin-top: -5px;
+
+}
+.cards:hover .fifth-image {
+    width:107px;
+    height: 206;
+    margin-left: 80px;
+    margin-top: -5px;
 }
 .para{
     margin-left: 10px;
@@ -789,7 +828,7 @@ transform: scale(1.3);
     margin-left: 90px;
 }
 .HIW{
-    margin-left: 70px;
+    margin-left: 100px;
 }
 .section4{
     margin-top: 0px;
