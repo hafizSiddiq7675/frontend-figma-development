@@ -59,7 +59,7 @@
             <div class="signup-btn">
                 Sign Up
             </div>
-          {{-- <p class="reserve"> Reserve Now</p> --}}
+          <div class="reserve"> <img src="{{ ('superball/images/reserve.png') }}" alt=""></div>
 
 
 
