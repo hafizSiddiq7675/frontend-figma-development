@@ -24,7 +24,7 @@
     <div class="main">
     <p class="top-text">CryptoPayments</p>
     <img class="bg-img" src="{{ ('crypto-figma/images/bg2.png') }}" alt="">
-    <div class="main-heading">
+    <div class="main-heading text-center">
         <p>Crypto payments is a crypto
             exchange for everyone</p>
     </div>
@@ -131,12 +131,12 @@
 <div class="section-three">
 <section class="section3">
     <p class="HIW" >How It Works</p>
-    <div class="para">
+    <div class="para text-center">
         <p>
             Lorem ipsum dolor sit amet,
              consectetur adipiscing elit.
              Nunc vulputate libero et velit interdum,
-              ac aliquet odio mattis. Class
+              ac <br /> aliquet odio mattis. Class
                aptent taciti sociosqu ad litora
                 torque
         </p>
@@ -241,7 +241,7 @@
 </section>
 
 <section class="section5">
-    <p class="trader" >Become a crypto trader in seconds</p>
+    <p class="trader text-center" >Become a crypto trader <br />in seconds</p>
     <div class="para">
         <p>
             Anytime, Anywhere. Trade crypto on your terms
