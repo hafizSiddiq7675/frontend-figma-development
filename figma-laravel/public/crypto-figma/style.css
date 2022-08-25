@@ -24,11 +24,11 @@ width: 882px;
 height: 832px;
 }
 .main-heading{
-    width: 966px;
-height: 216px;
+    width: 100%;
 text-align: center;
+padding: 0px 50px;
 margin-top: -571px;
-margin-left: 190px;
+/* margin-left: 190px; */
 }
 .main-heading p{
     font-family: 'IvyMode' ;
@@ -209,16 +209,19 @@ color: #6B7280;
 
 
 .section2{
-    width: 1129px;
+    width: 80%;
 height: 231px;
 background: #F8F5FF;
 border-radius: 12px;
-margin:251px 76px;
+margin-top:251px;
+margin-bottom: 251px;
+margin-left:10%;
+margin-right: 10%;
 display: flex;
 justify-content: space-around;
 }
 .card2{
-    width: 206px;
+    width:25%;
 height: 203px;
 background: #F8F5FF;
 margin-top: 14px;
@@ -332,9 +335,7 @@ text-align: center;
 color: #2F2D2D;
 }
 .para{
-    width: 784px;
-height: 48px;
-margin-left: 200px;
+    width: 100%;
 }
 .para p{
     font-family: 'Poppins';
@@ -444,6 +445,8 @@ height: 72px;
 
 .section4{
     margin-top: 450px;
+    width: auto;
+    height: auto;
 
 }
 .top{
@@ -526,15 +529,13 @@ color: #2F2D2D;
     margin-top: 180px;
 }
 .trader{
-    width: 539px;
-height: 140px;
+    width: 100%;
     font-family: 'Verdana';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 70px;
 /* or 175% */
-margin-left: 340px;
 text-align: center;
 
 color: #2F2D2D;
