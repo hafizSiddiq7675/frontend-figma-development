@@ -724,7 +724,7 @@ color: #FFFFFF;
 /* ___________________________________________Mobile Responsive__________________________________ */
 
 
-@media only screen and (max-width: 912px){
+@media only screen and (min-width:258px) and (max-width: 912px){
 .bg-img{
     width: 432px;
 height: 432px;
@@ -748,7 +748,7 @@ margin-left: 0px;
 }
 header{
     height: 2300px;
-    width:c
+    width:130%;
 
 }
 .cards:hover .overlay{
@@ -975,7 +975,7 @@ color: #000000;
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width:1px) and (max-width: 600px){
     .testmonial{
         margin-left: 90px;
     }

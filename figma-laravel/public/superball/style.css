@@ -220,6 +220,8 @@ line-height: 64px;
 /* identical to box height, or 133% */
 width: 250px;
 height: 64px;
+align-items: center;
+justify-content: center;
 
 color: #FFFFFF;
 
@@ -374,6 +376,27 @@ opacity: 0;
 width: 270px;
     height: 64px;
 }
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+.left1{
+    margin-left: 83px;
+}
+.right1{
+    margin-right: 86px;
+    margin-left: -64px;
+}
+
+
+
+
+@media(min-width:2410px){
+
+    .navbar{
+        margin-top: -550px;
+    }
+}
 
 
 
@@ -391,6 +414,14 @@ width: 270px;
         margin-left: 200px;
         margin-top: 300px;
     }
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .left1, .right1{
+        margin: 0;
+
+    }
     .top-title{
         margin-left: -35px;
         margin-top: 15px;
@@ -398,6 +429,7 @@ width: 270px;
     .navbar{
         margin-top: -600px;
         margin-left: 60px;
+        width: 112%;
         background-color:  #242435;
     }
     .top-paragraph{
