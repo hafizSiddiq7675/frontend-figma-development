@@ -17,7 +17,7 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="http://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Crypto Currency</title>
 </head>
 <body>
  <header>
@@ -30,7 +30,7 @@
     </div>
 
 
-    <section class="slider"  >
+    <section class="slider">
         <div class="cards first">
                     <img class="first-image" src="{{ ('crypto-figma/images/first-image.png') }}" alt="">
                     <div class="overlay">
@@ -81,7 +81,6 @@
 
 
     </section>
-
 
     </div>
  </header>

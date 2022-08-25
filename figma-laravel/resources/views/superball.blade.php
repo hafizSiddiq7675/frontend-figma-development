@@ -33,10 +33,11 @@
         </div>
     </div>
 </nav>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <p class="top-paragraph">
+
+
+<div class="section1">
+    <div class="left1">
+ <p class="top-paragraph">
                 You could be the lucky winner of 25 ETH Someone
                 has to walk away with the cash and it could be <span>you!</span>
             </p>
@@ -44,10 +45,9 @@
                 <p>Count me in</p>
             </div>
 
-
-        </div>
-        <div class="col-md-6">
-            <div class="card1">
+    </div>
+    <div class="right1">
+        <div class="card1">
             <img class="logo" src="{{ ('superball/images/logo.png') }}" alt="">
             <p class="card-title"><span>25 </span> ETH</p>
             </div>
@@ -61,16 +61,16 @@
             </div>
           <div class="reserve"> <img src="{{ ('superball/images/reserve.png') }}" alt=""></div>
 
-
-
-        </div>
     </div>
 </div>
 
 </div>
 <div class="other-sections">
+    
     <div class="buy-now">
-        <div>
+
+        <div class="now" >
+
             <h1 class="buy">
                 BUY NOW
                 </h1>
@@ -86,42 +86,7 @@
         </div>
 
     </div>
-   {{-- <div class=" cards container" style="color: white">
-        <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <div class="container">
-                <div class="row">
-                    <div class="col md-6">
-                        <div class="card2">
 
-                        </div>
-                    </div>
-                    <div class="col md-6">
-                        <div class="card2">
-
-                    </div>
-                </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-md-6 col-xs-12">
-            <div class="container">
-                <div class="row">
-                    <div class="col md-6">
-                        <div class="card2">
-
-                        </div>
-                    </div>
-                    <div class="col md-6"><div class="card2">
-
-                    </div></div>
-                </div>
-            </div>
-
-        </div>
-        </div>
-   </div> --}}
 <div class="cards">
     <div class="card2 first ">
         <p class="card-top">
