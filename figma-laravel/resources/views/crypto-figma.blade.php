@@ -25,14 +25,16 @@
     <p class="top-text">CryptoPayments</p>
     <img class="bg-img" src="{{ ('crypto-figma/images/bg2.png') }}" alt="">
     <div class="main-heading text-center">
-        <p>Crypto payments is a crypto
+        <p>Crypto payments is a crypto <br />
             exchange for everyone</p>
     </div>
 
 
     <section class="slider">
         <div class="cards first">
-                    <img class="first-image" src="{{ ('crypto-figma/images/first-image.png') }}" alt="">
+                    <div class="text-center">
+                        <img class="first-image" src="{{ ('crypto-figma/images/first-image.png') }}" alt="">
+                    </div>
                     <div class="overlay">
                         <div class="account">Create Your Account
                             <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -42,7 +44,10 @@
         </div>
 
         <div class="cards second">
-            <img class="second-image" src="{{ ('crypto-figma/images/second-image.png') }}" alt="">
+            <div class="text-center">
+                <img class="second-image" src="{{ ('crypto-figma/images/second-image.png') }}" alt="">
+            </div>
+
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -51,7 +56,10 @@
               </div>
         </div>
         <div class="cards third">
-            <img class="third-image" src="{{ ('crypto-figma/images/third-image.png') }}" alt="">
+            <div class="text-center">
+                <img class="third-image" src="{{ ('crypto-figma/images/third-image.png') }}" alt="">
+            </div>
+
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -60,7 +68,9 @@
               </div>
         </div>
         <div class="cards fourth">
-            <img class="fourth-image" src="{{ ('crypto-figma/images/fourth-image.png') }}" alt="">
+            <div class="text-center">
+                <img class="fourth-image" src="{{ ('crypto-figma/images/fourth-image.png') }}" alt="">
+            </div>
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -69,7 +79,9 @@
               </div>
         </div>
         <div class="cards fifth">
+           <div class="text-center">
             <img class="fifth-image" src="{{ ('crypto-figma/images/firth-image.png') }}" alt="">
+           </div>
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
