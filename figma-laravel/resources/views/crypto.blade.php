@@ -19,18 +19,18 @@
     <title>Document</title>
 </head>
 <body>
-<header>
-   <p class="top-text">CryptoPayments</p>
-</header>
 <section class="section1">
+    <p class="top-text">CryptoPayments</p>
     <div class="title">
-        <p>Crypto payments is a crypto
+        <p>Crypto payments is a crypto <br/>
             exchange for everyone</p>
 
     </div>
     <section class="slider">
         <div class="cards first">
-                    <img class="first-image" src="{{ ('crypto-figma/images/first-image.png') }}" alt="">
+                    <div class="text-center">
+                        <img class="first-image" src="{{ ('crypto-figma/images/first-image.png') }}" alt="">
+                    </div>
                     <div class="overlay">
                         <div class="account">Create Your Account
                             <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -40,7 +40,10 @@
         </div>
 
         <div class="cards second">
-            <img class="second-image" src="{{ ('crypto-figma/images/second-image.png') }}" alt="">
+            <div class="text-center">
+                <img class="second-image" src="{{ ('crypto-figma/images/second-image.png') }}" alt="">
+            </div>
+
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -49,7 +52,10 @@
               </div>
         </div>
         <div class="cards third">
-            <img class="third-image" src="{{ ('crypto-figma/images/third-image.png') }}" alt="">
+            <div class="text-center">
+                <img class="third-image" src="{{ ('crypto-figma/images/third-image.png') }}" alt="">
+            </div>
+
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -58,7 +64,9 @@
               </div>
         </div>
         <div class="cards fourth">
-            <img class="fourth-image" src="{{ ('crypto-figma/images/fourth-image.png') }}" alt="">
+            <div class="text-center">
+                <img class="fourth-image" src="{{ ('crypto-figma/images/fourth-image.png') }}" alt="">
+            </div>
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -67,7 +75,9 @@
               </div>
         </div>
         <div class="cards fifth">
+           <div class="text-center">
             <img class="fifth-image" src="{{ ('crypto-figma/images/firth-image.png') }}" alt="">
+           </div>
             <div class="overlay">
                 <div class="account">Create Your Account
                     <p>Easy Set up of your account with marketplace CryptoPayments</p>
@@ -80,7 +90,58 @@
 
     </section>
 </section>
+<section class="section2">
 
+    <div class="card2">
+
+            <img class="B-logo" src="{{ ('crypto-figma/images/B-logo.png') }}" alt="">
+            <div class="info">
+                <p class="bit-coin" >BTC/USDT</p>
+                <p class="low">-0.79%</p>
+            </div>
+
+            <p class="bold">55350.21</p>
+            <p class="light">55350.21</p>
+    </div>
+    <div class="card2">
+           <img class="M-logo" src="{{ ('crypto-figma/images/M-logo.png') }}" alt="">
+           <div class="info">
+            <p class="bit-coin" >BTC/USDT</p>
+            <p class="diff">-0.79%</p>
+        </div>
+
+        <p class="bold">55350.21</p>
+        <p class="light">55350.21</p>
+    </div>
+    <div class="card2">
+        <img class="D-logo" src="{{ ('crypto-figma/images/D-logo.png') }}" alt="">
+        <div class="info">
+            <p class="bit-coin" >BTC/USDT</p>
+            <p class="diff">-0.79%</p>
+        </div>
+
+        <p class="bold">55350.21</p>
+        <p class="light">55350.21</p>
+    </div>
+    <div class="card2">
+        <img class="F-logo" src="{{ ('crypto-figma/images/F-logo.png') }}" alt="">
+        <div class="info">
+            <p class="bit-coin" >BTC/USDT</p>
+            <p class="diff">-0.79%</p>
+        </div>
+
+        <p class="bold">55350.21</p>
+        <p class="light">55350.21</p>
+    </div>
+
+</section>
+{{-- <section class="section3">
+    <div class="HIW text-center">
+        <p>
+            How It Works
+        </p>
+    </div>
+</section> --}}
 
 </body>
 </html>
