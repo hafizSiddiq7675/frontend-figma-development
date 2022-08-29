@@ -239,9 +239,9 @@
         <div class="container">
             <div class="row">
                 <div class=" col-md-6 col-xs-12">
-                    <div class="top">
-                    Trade Anywhere
-                    <p>Anytime, Anywhere. Trade crypto on your terms</p>
+                    <div class="">
+                  <h1 class="text-center"  style="font-weight: 700;margin-left:-70px">  Trade Anywhere</h1>
+                    <p style="margin-left: 85px">Anytime, Anywhere. Trade crypto on your terms</p>
                 </div>
                 <div class="card4">
                     <div class="logo">
@@ -280,7 +280,7 @@
         </div>
     </section>
 <section class="section5">
-    <p class="trader text-center" >Become a crypto trader <br />in seconds</p>
+    <h1  style="font-weight: 700;"class=" text-center" >Become a crypto trader <br />in seconds</h1>
     <div class="para">
         <p>
             Anytime, Anywhere. Trade crypto on your terms
@@ -297,9 +297,7 @@
             <div class="para3">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
             </div>
-            <div class="button">
-                <p>Buy Crypto</p>
-            </div>
+            <button class="button" type="button">Buy Crypto</button>
         </div>
         <div class="card5">
             <div class="image">
@@ -311,9 +309,7 @@
             <div class="para3">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
             </div>
-            <div class="button">
-                <p>Buy Crypto</p>
-            </div>
+            <button class="button" type="button">Trade Now</button>
         </div>
         <div class="card5">
             <div class="image">
@@ -325,20 +321,18 @@
             <div class="para3">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
             </div>
-            <div class="button">
-                <p>Buy Crypto</p>
-            </div>
+            <button class="button" type="button">Learn Now</button>
         </div>
     </div>
     <div class="text-center">
-
+<button class="contact-button" type="button" >Contact Us</button>
     </div>
 
 </section>
 
 
 <section class="section6">
-    <div class="text-center test"><p>Testimonials</p></div>
+    <div class="text-center "><h1 style="font-weight: 700" >Testimonials</h1></div>
 
     <div class="card-section6">
         <div class="part" >
@@ -393,7 +387,6 @@
     </div>
 
 </section>
-</div>
 <footer>
     <div class="left-footer">
         <div class="ready">Ready to get started?</div>
@@ -412,5 +405,7 @@
 
 
 </footer>
+</div>
+
 </body>
 </html>

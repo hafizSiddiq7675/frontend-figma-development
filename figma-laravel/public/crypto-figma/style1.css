@@ -14,7 +14,7 @@ background-color: #08001A;
 background-image: url("/crypto-figma/images/union.png");
 }
 .top-text{
-    padding-top: 50px;
+    padding-top: 24px;
     font-family: 'Red Rose';
 font-style: normal;
 font-weight: 700;
@@ -48,8 +48,8 @@ color: #F7F7F7;
 .slider{
     width: 100%;
     display: flex;
-    gap: 25px;
-    margin-top: 250px;
+    gap: 27px;
+    margin-top: 280px;
     margin-bottom: 26px;
 
 }
@@ -162,7 +162,9 @@ color: #6B7280;
 
 
 }
-
+.cards:hover .slider{
+    height: 1000px;
+}
 
 .cards:hover .first-image {
     width:177px;
@@ -210,8 +212,10 @@ display: flex;
 justify-content: space-around;
 }
 .card2{
-    width:25%;
-height: 100%;
+    width:230px;
+    height: 90%;
+    background: #F8F5FF;
+    margin-top: 10;
 background: #F8F5FF;
 
 
@@ -314,11 +318,14 @@ margin-top: -10px;
 
 /* =================================================section3======================================== */
 
+.section3{
+    margin-top:-70px;
+}
 .HIW{
     font-family: 'Verdana';
     font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: bolder;
+    font-size: 60px;
     line-height: 70px;
     text-align: center;
     color: #2F2D2D;
@@ -429,10 +436,10 @@ height: 72px;
 
 
 .section4{
-    background-image: url("/crypto-figma/images/bg3.png");
+
     margin-top: 180px;
     width: auto;
-    background-position-y:bottom ;
+
     height: auto;
 
 }
@@ -507,21 +514,20 @@ color: #2F2D2D;
 /* ================================================Section5===================================== */
 
 .section5{
-    background-image: url("/crypto-figma/images/bg.png");
+
     margin-top: 180px;
-    background-position-y: bottom;
+
 }
 .trader{
     background-image: url("/crypto-figma/images/bg3.png");
     width: 100%;
     font-family: 'Verdana';
 font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 70px;
+
+
+
 /* or 175% */
 text-align: center;
-
 color: #2F2D2D;
 }
 .cards2{
@@ -564,9 +570,7 @@ color: #000000;
 border: 0.5px solid #FFFFFF;
 
 }
-.para3{
-    margin-top: 40px;
-}
+
 .para3 p{
     font-family: 'Poppins';
 font-style: normal;
@@ -581,40 +585,46 @@ color: #515151;
 
 }
 .button{
+    background-color: transparent;
 width: 121px;
 height: 36px;
 border: 1px solid #8F60FF;
 border-radius: 4px;
-margin-top:24px;
-margin-left: 84px;
-padding: 7px 13px;
-}
-.button p{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height, or 125% */
-
-
 color: #8F60FF;
-
+margin-left: 84px;
+font-weight: 600;
+padding: 0px 13px;
+margin-top: 5px;
+font-family: 'poppins';
 }
+.contact-button{
+    background-color: #8F60FF;
+    width: 121px;
+    height: 36px;
+    border: 1px solid #8F60FF;
+    border-radius: 4px;
+    color: white;
+   margin-top: 50px;
+    font-weight: 300;
+    padding: 0px 13px;
+    font-family: 'poppins';
+}
+
 .sec56{
     background-image: url("/crypto-figma/images/bg.png");
-    background-position-y: center;
+    background-position-y: initial;
     height: 2000px;
 }
 
 /* =======================================Footer========================== */
 footer{
-    margin-top: -100px;
+    margin-top: -126px;
     width: 100%;
 height: 382px;
 background: #FFFFFF;
-background-image: url("/crypto-figma/images/bg.png");
+background-image: url("/crypto-figma/images/footerbg.png");
 background-position-y: center;
+background-position-x: inherit;
 /* background-image: url("/crypto-figma/images/bg3.png"); */
 box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 display: flex;
@@ -764,6 +774,9 @@ color: #FFFFFF;
 
 
      }
+     .para{
+        margin-left: -74px;
+     }
      .section3{
         text-align: center;
         margin-left: 150px;
@@ -794,7 +807,13 @@ color: #FFFFFF;
      }
 
 
-
+.section4{
+    margin-top: 515px;
+}
+.sec56{
+    width: 586px;
+    height: 3000px;
+}
 
 
 
@@ -825,9 +844,7 @@ color: #FFFFFF;
 }
 
 
-.test{
-    margin-left: 70px;
-}
+
 
 
 .section6{
@@ -897,7 +914,7 @@ font-size: 16px;
 line-height: 24px;
 margin-left: 40px;
 color: #6B7280;
-text-align: start;
+text-align: center;
 
 }
 .testmonial{
