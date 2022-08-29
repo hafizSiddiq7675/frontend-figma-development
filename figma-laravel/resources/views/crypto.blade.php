@@ -135,13 +135,276 @@
     </div>
 
 </section>
-{{-- <section class="section3">
+<section class="section3">
     <div class="HIW text-center">
         <p>
             How It Works
         </p>
     </div>
-</section> --}}
+    <div class="para text-center">
+        <p>
+            Lorem ipsum dolor sit amet,
+             consectetur adipiscing elit.
+             Nunc vulputate libero et velit interdum,
+              ac <br /> aliquet odio mattis. Class
+               aptent taciti sociosqu ad litora
+                torque
+        </p>
+    </div>
 
+
+    <div class="images">
+        <div>
+            <img class="cloud" src="{{ ('crypto-figma/images/cloud.png') }}" alt="">
+            <p class="step">Step 2</p>
+            <p class="download">Download</p>
+            <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+        </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/mobile.png') }}" alt="">
+                <p class="step">Step 2</p>
+                <p class="download">Download</p>
+                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/arrow.png') }}" alt="">
+                <p class="step">Step 2</p>
+                <p class="download">Download</p>
+                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/doller.png') }}" alt="">
+                <p class="step">Step 2</p>
+                 <p class="download">Download</p>
+                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+
+    </div>
+    <div class="images2 text-center">
+        <div>
+            <img class="cloud first-line" src="{{ ('crypto-figma/images/dotlinepng.png') }}" alt="">
+        </div>
+        <div>
+            <img class="cloud" src="{{ ('crypto-figma/images/dotlinepng.png') }}" alt="">
+        </div>
+        <div>
+            <img class="cloud" src="{{ ('crypto-figma/images/dotlinepng.png') }}" alt="">
+        </div>
+    </div>
+    {{-- <div class="images">
+        <div>
+            <img class="cloud" src="{{ ('crypto-figma/images/cloud.png') }}" alt="">
+            <p class="step">Step 2</p>
+            <p class="download">Download</p>
+            <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+        </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/mobile.png') }}" alt="">
+                <p class="step">Step 2</p>
+                <p class="download">Download</p>
+                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/arrow.png') }}" alt="">
+                <p class="step">Step 2</p>
+                <p class="download">Download</p>
+                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/doller.png') }}" alt="">
+                <p class="step">Step 2</p>
+                 <p class="download">Download</p>
+                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+
+        </div>
+        <div class="images2 text-center">
+            <div>
+                <img class="cloud first-line" src="{{ ('crypto-figma/images/dotlinepng.png') }}" alt="">
+            </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/dotlinepng.png') }}" alt="">
+            </div>
+            <div>
+                <img class="cloud" src="{{ ('crypto-figma/images/dotlinepng.png') }}" alt="">
+            </div>
+        </div>
+
+    </div> --}}
+
+</section>
+<section class="section4">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-6 col-xs-12">
+                <div class="top">
+                Trade Anywhere
+                <p>Anytime, Anywhere. Trade crypto on your terms</p>
+            </div>
+            <div class="card4">
+                <div class="logo">
+                    <img src="{{ ('crypto-figma/images/A-logo.png') }}" alt="">
+                </div>
+                <div class="disc">
+                    download from
+                    <p>Apple Store</p>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="logo">
+                    <img src="{{ ('crypto-figma/images/playstore.png') }}" alt="">
+                </div>
+                <div class="disc">
+                    download from
+                    <p>Apple Store</p>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="logo">
+                    <img src="{{ ('crypto-figma/images/mac.png') }}" alt="">
+                </div>
+                <div class="disc">
+                    download from
+                    <p>Apple Store</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="boy">
+                    <img src="{{ ('crypto-figma/images/boy.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section5">
+    <p class="trader text-center" >Become a crypto trader <br />in seconds</p>
+    <div class="para">
+        <p>
+            Anytime, Anywhere. Trade crypto on your terms
+        </p>
+    </div>
+    <div class="cards2">
+        <div class="card5">
+            <div class="image">
+                <img src="{{ ('crypto-figma/images/child-img.png') }}" alt="">
+            </div>
+            <div class="buy">
+                <p>Buy and Sale Crypto</p>
+            </div>
+            <div class="para3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+            <div class="button">
+                <p>Buy Crypto</p>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="image">
+                <img src="{{ ('crypto-figma/images/child-img2.png') }}" alt="">
+            </div>
+            <div class="buy">
+                <p>Buy and Sale Crypto</p>
+            </div>
+            <div class="para3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+            <div class="button">
+                <p>Buy Crypto</p>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="image">
+                <img src="{{ ('crypto-figma/images/child-img3.png') }}" alt="">
+            </div>
+            <div class="buy">
+                <p>Buy and Sale Crypto</p>
+            </div>
+            <div class="para3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
+            </div>
+            <div class="button">
+                <p>Buy Crypto</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section6">
+    <div class="text-center test"><p>Testimonials</p></div>
+
+    <div class="card-section6">
+        <div class="part" >
+            <div class="part-top">
+              <div class="girl-image"><img src="{{ asset('images/girl-imagepng.png') }}" alt=""></div>
+              <div class="part-title">
+                <p class="bold1">Lorem Ipsum</p>
+                <p class="light1">Lorem Ipsum</p>
+              </div>
+              <div class="sign"><img src="{{ asset('images/sign.png') }}" alt=""></div>
+            </div>
+            <div class="para4">
+              <p>Leave Zoom links behind. Move
+                from room to room in one click,
+                and keep track of open rooms
+                in the room list.</p>
+            </div>
+          </div>
+          <div class="part" >
+            <div class="part-top">
+              <div class="girl-image"><img src="{{ asset('images/girl-imagepng.png') }}" alt=""></div>
+              <div class="part-title">
+                <p class="bold1">Lorem Ipsum</p>
+                <p class="light1">Lorem Ipsum</p>
+              </div>
+              <div class="sign"><img src="{{ asset('images/sign.png') }}" alt=""></div>
+            </div>
+            <div class="para4">
+              <p>Leave Zoom links behind. Move
+                from room to room in one click,
+                and keep track of open rooms
+                in the room list.</p>
+            </div>
+          </div>
+          <div class="part" >
+            <div class="part-top">
+              <div class="girl-image"><img src="{{ asset('images/girl-imagepng.png') }}" alt=""></div>
+              <div class="part-title">
+                <p class="bold1">Lorem Ipsum</p>
+                <p class="light1">Lorem Ipsum</p>
+              </div>
+              <div class="sign"><img src="{{ asset('images/sign.png') }}" alt=""></div>
+            </div>
+            <div class="para4">
+              <p>Leave Zoom links behind. Move
+                from room to room in one click,
+                and keep track of open rooms
+                in the room list.</p>
+            </div>
+          </div>
+
+    </div>
+
+</section>
+<footer>
+
+    <div class="left-footer">
+        <div class="ready">Ready to get started?</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <div class="get-start">
+            <p>Get Started </p>
+        </div>
+    </div>
+    <div class="right-footer">
+        <div class="navigation"> Navigation</div>
+        <p>Email Marketing</p>
+        <p>Compaigns</p>
+        <p>Branding</p>
+        <p>Offline</p>
+    </div>
+
+
+</footer>
 </body>
 </html>
