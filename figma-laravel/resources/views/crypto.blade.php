@@ -233,50 +233,52 @@
     </div> --}}
 
 </section>
-<section class="section4">
-    <div class="container">
-        <div class="row">
-            <div class=" col-md-6 col-xs-12">
-                <div class="top">
-                Trade Anywhere
-                <p>Anytime, Anywhere. Trade crypto on your terms</p>
-            </div>
-            <div class="card4">
-                <div class="logo">
-                    <img src="{{ ('crypto-figma/images/A-logo.png') }}" alt="">
+
+<div class="sec56">
+    <section class="section4">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-6 col-xs-12">
+                    <div class="top">
+                    Trade Anywhere
+                    <p>Anytime, Anywhere. Trade crypto on your terms</p>
                 </div>
-                <div class="disc">
-                    download from
-                    <p>Apple Store</p>
+                <div class="card4">
+                    <div class="logo">
+                        <img src="{{ ('crypto-figma/images/A-logo.png') }}" alt="">
+                    </div>
+                    <div class="disc">
+                        download from
+                        <p>Apple Store</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card4">
-                <div class="logo">
-                    <img src="{{ ('crypto-figma/images/playstore.png') }}" alt="">
+                <div class="card4">
+                    <div class="logo">
+                        <img src="{{ ('crypto-figma/images/playstore.png') }}" alt="">
+                    </div>
+                    <div class="disc">
+                        download from
+                        <p>Apple Store</p>
+                    </div>
                 </div>
-                <div class="disc">
-                    download from
-                    <p>Apple Store</p>
+                <div class="card4">
+                    <div class="logo">
+                        <img src="{{ ('crypto-figma/images/mac.png') }}" alt="">
+                    </div>
+                    <div class="disc">
+                        download from
+                        <p>Apple Store</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card4">
-                <div class="logo">
-                    <img src="{{ ('crypto-figma/images/mac.png') }}" alt="">
                 </div>
-                <div class="disc">
-                    download from
-                    <p>Apple Store</p>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-6 col-xs-12">
-                <div class="boy">
-                    <img src="{{ ('crypto-figma/images/boy.png') }}" alt="">
+                <div class="col-md-6 col-xs-12">
+                    <div class="boy">
+                        <img src="{{ ('crypto-figma/images/boy.png') }}" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 <section class="section5">
     <p class="trader text-center" >Become a crypto trader <br />in seconds</p>
     <div class="para">
@@ -328,6 +330,10 @@
             </div>
         </div>
     </div>
+    <div class="text-center">
+
+    </div>
+
 </section>
 
 
@@ -387,8 +393,8 @@
     </div>
 
 </section>
+</div>
 <footer>
-
     <div class="left-footer">
         <div class="ready">Ready to get started?</div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
