@@ -253,6 +253,7 @@ height: 44px;
 .info{
     display: flex;
     margin-left: 24px;
+    margin-top: 18px;
 
 }
 .bit-coin{
@@ -267,7 +268,7 @@ line-height: 150%;
 color: #515151;
 }
 .diff{
-    width: 56px;
+    width: 60px;
 height: 26px;
 background: #6DBC89;
 border-radius: 8px;
@@ -276,7 +277,7 @@ margin-left: 27px;
 padding-left: 3px;
 }
 .low{
-    width: 56px;
+    width: 60px;
     height: 26px;
     background:  #F27247;
     border-radius: 8px;
@@ -287,7 +288,7 @@ padding-left: 3px;
 .bold{
     font-family: 'Verdana';
 font-style: normal;
-font-weight: 700;
+font-weight: 900;
 font-size: 22px;
 line-height: 150%;
 margin-left: 24px;
@@ -339,7 +340,7 @@ font-size: 16px;
 text-align: center;
 /* or 24px */
 
-
+margin-top:24px;
 width: 100%;
 
 color: #515151;
@@ -373,6 +374,21 @@ text-align: center;
 color: #515151;
 margin-left: 25px;
 margin-top: 70px;
+}
+.step1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    color: #515151;
+    margin-left: 25px;
+    margin-top: 87px;
+
 }
 .download{
     font-family: 'Verdana';
@@ -599,13 +615,13 @@ font-family: 'poppins';
 }
 .contact-button{
     background-color: #8F60FF;
-    width: 121px;
-    height: 36px;
+    width: 130px;
+    height: 38px;
     border: 1px solid #8F60FF;
     border-radius: 4px;
     color: white;
    margin-top: 50px;
-    font-weight: 300;
+    font-weight: 500;
     padding: 0px 13px;
     font-family: 'poppins';
 }
@@ -625,6 +641,7 @@ background: #FFFFFF;
 background-image: url("/crypto-figma/images/footerbg.png");
 background-position-y: center;
 background-position-x: inherit;
+
 /* background-image: url("/crypto-figma/images/bg3.png"); */
 box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 display: flex;
@@ -673,7 +690,7 @@ line-height: 26px;
 letter-spacing: -0.231818px;
 
 color: #8F60FF;
-margin-right: 100px;
+margin-right: 130px;
 margin-top: 100px;
 
 }
@@ -896,8 +913,8 @@ text-align: center;
 color: #000000;
 }
 .sign{
-    margin-left: 36px;
-    margin-top: 46px;
+    margin-left: 74px;
+    margin-top: 55px;
 }
 .para4{
     margin-top: 33px;
@@ -909,8 +926,8 @@ text-align: center;
 .para4 p{
     font-family: 'Poppins';
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
+font-weight: 600;
+font-size: 12px;
 line-height: 24px;
 margin-left: 40px;
 color: #6B7280;
@@ -938,13 +955,13 @@ line-height: 60px;
 color: #000000;
 }
 .card-section6{
-    width: 80%;
+    width: 90%;
     height: 231px;
 
     border-radius: 12px;
     margin-top:70px;
     margin-bottom: 251px;
-    margin-left:10%;
+    margin-left:5%;
     margin-right: 10%;
     display: flex;
     justify-content: space-between;
