@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link href="https://fonts.magictype.in/css?font-family=Redrose&weight=300|500|700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href="http://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/verdana+bold" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -107,7 +107,7 @@
            <img class="M-logo" src="{{ ('crypto-figma/images/M-logo.png') }}" alt="">
            <div class="info">
             <p class="bit-coin" >BTC/USDT</p>
-            <p class="diff">-0.79%</p>
+            <p class="diff">+0.79%</p>
         </div>
 
         <p class="bold">55350.21</p>
@@ -117,7 +117,7 @@
         <img class="D-logo" src="{{ ('crypto-figma/images/D-logo.png') }}" alt="">
         <div class="info">
             <p class="bit-coin" >BTC/USDT</p>
-            <p class="diff">-0.79%</p>
+            <p class="diff">+0.79%</p>
         </div>
 
         <p class="bold">55350.21</p>
@@ -127,7 +127,7 @@
         <img class="F-logo" src="{{ ('crypto-figma/images/F-logo.png') }}" alt="">
         <div class="info">
             <p class="bit-coin" >BTC/USDT</p>
-            <p class="diff">-0.79%</p>
+            <p class="diff">+0.79%</p>
         </div>
 
         <p class="bold">55350.21</p>
@@ -136,11 +136,11 @@
 
 </section>
 <section class="section3">
-    <div class="HIW text-center">
-        <p>
-            How It Works
-        </p>
-    </div>
+
+        <h1 class="text-center" style="font-weight: 700">
+            How it Works
+        </h1>
+
     <div class="para text-center">
         <p>
             Lorem ipsum dolor sit amet,
@@ -156,7 +156,7 @@
     <div class="images">
         <div>
             <img class="cloud" src="{{ ('crypto-figma/images/cloud.png') }}" alt="">
-            <p class="step">Step 2</p>
+            <p class="step1">Step 2</p>
             <p class="download">Download</p>
             <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
         </div>
@@ -168,7 +168,7 @@
             </div>
             <div>
                 <img class="cloud" src="{{ ('crypto-figma/images/arrow.png') }}" alt="">
-                <p class="step">Step 2</p>
+                <p class="step1">Step 2</p>
                 <p class="download">Download</p>
                 <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero</p>
             </div>
