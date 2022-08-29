@@ -68,7 +68,7 @@ margin-top: -40px;
 .first-image{
     width: 140px;
 height: 210px;
-margin-left: 40px;
+margin-left: 0px;
 margin-top: 25px;
 }
 .second{
@@ -77,7 +77,7 @@ margin-top: 25px;
 .second-image{
     width: 140px;
     height: 210px;
-    margin-left: 40px;
+    margin-left: 0px;
 margin-top: 25px;
 }
 .third{
@@ -96,7 +96,7 @@ margin-left:10px;
     width: 150px;
 height: 194px;
 margin-top: 30px;
-margin-left: 40px;
+margin-left: 0px;
 }
 .fifth{
     background: #DAD3FE;
@@ -429,8 +429,10 @@ height: 72px;
 
 
 .section4{
+    background-image: url("/crypto-figma/images/bg3.png");
     margin-top: 180px;
     width: auto;
+    background-position-y:bottom ;
     height: auto;
 
 }
@@ -507,8 +509,10 @@ color: #2F2D2D;
 .section5{
     background-image: url("/crypto-figma/images/bg.png");
     margin-top: 180px;
+    background-position-y: bottom;
 }
 .trader{
+    background-image: url("/crypto-figma/images/bg3.png");
     width: 100%;
     font-family: 'Verdana';
 font-style: normal;
@@ -524,6 +528,7 @@ color: #2F2D2D;
     display: flex;
     justify-content: space-around;
     margin: 0px 150px;
+    gap: 60px;
 }
 .card5{
     margin-top: 40px;
@@ -596,14 +601,21 @@ line-height: 20px;
 color: #8F60FF;
 
 }
+.sec56{
+    background-image: url("/crypto-figma/images/bg.png");
+    background-position-y: center;
+    height: 2000px;
+}
 
 /* =======================================Footer========================== */
 footer{
-    margin-top: 100px;
+    margin-top: -100px;
     width: 100%;
 height: 382px;
 background: #FFFFFF;
 background-image: url("/crypto-figma/images/bg.png");
+background-position-y: center;
+/* background-image: url("/crypto-figma/images/bg3.png"); */
 box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 display: flex;
 justify-content: space-between;
@@ -622,7 +634,7 @@ line-height: 150%;
 
 text-align: center;
 margin-top: 100px;
-margin-left:118px;
+
 color: #000000;
 }
 .left-footer p{
@@ -677,10 +689,9 @@ color: #515151;
 border-radius: 4px;
 width: 175px;
 height: 50px;
-margin-left: -1000px;
-margin-top: 230px;
-padding-left: 45px;
-padding-top: 10px;
+
+
+margin-left: 120px;
 }
 .get-start p{
     font-family: 'Poppins';
@@ -689,12 +700,11 @@ font-weight: 700;
 font-size: 17px;
 line-height: 26px;
 /* identical to box height */
-
+padding-top: 10px;
 letter-spacing: -0.231818px;
-
+margin-left: 0px;
 color: #FFFFFF;
 }
-
 
 
 
@@ -717,6 +727,9 @@ color: #FFFFFF;
         width: 150%;
         min-height: 2200px;
     }
+   footer{
+    margin-top: 100px;
+   }
     .slider{
         margin-top: 100px;
         display: flex;
@@ -797,6 +810,18 @@ color: #FFFFFF;
         margin-top: 100px;
         margin-left: 70px;
     }
+    .cards2{
+        display: flex;
+        flex-direction: column;
+    }
+    .section5{
+        margin-left: 150px;
+
+
+    }
+    .cards2{
+        margin-left: 0px;
+    }
 }
 
 
@@ -808,6 +833,8 @@ color: #FFFFFF;
 .section6{
     margin-top: 180px;
 
+    background-image: url("/crypto-figma/images/bg.png");
+    background-position-y: bottom;
 
 }
 
@@ -827,7 +854,8 @@ border-radius: 20px;
 
 }
 .girl-image{
-    margin-top: 56px;
+    margin-top: 46px;
+    margin-left: -20px;
 
 }
 .part-title{
@@ -851,13 +879,15 @@ text-align: center;
 color: #000000;
 }
 .sign{
-    margin-left: 56px;
+    margin-left: 36px;
     margin-top: 46px;
 }
 .para4{
     margin-top: 33px;
+    margin-left: -20px;
     width: 253px;
 height: 96px;
+text-align: center;
 }
 .para4 p{
     font-family: 'Poppins';
@@ -895,13 +925,13 @@ color: #000000;
     height: 231px;
 
     border-radius: 12px;
-    margin-top:76pxpx;
+    margin-top:70px;
     margin-bottom: 251px;
     margin-left:10%;
     margin-right: 10%;
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 40px;
 }
 
 
@@ -912,6 +942,12 @@ color: #000000;
         margin-bottom: 20px;
         margin-left: 50px;
     }
+    .card-section6{
+        display: flex;
+        flex-direction: column;
+
+    }
+
     .section6{
         display: flex;
         flex-direction: column;
